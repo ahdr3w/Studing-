@@ -8,7 +8,7 @@ int main (int ac, char* av[]) {
     t = 1;
     i++;
   }
-  for (i; i <= ac; i++) {
+  for (i; i < ac; i++) {
 		printf("%s", av[i]);
     if (i != ac)
         printf(" ");
